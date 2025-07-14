@@ -17,5 +17,5 @@ jobs:
     - name: Do a clean Package and install
       run: mvn clean install
       
-    - name: List the build artifact
+    - name: List the install artifact
       run: ls target/
